@@ -1,15 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Animate header on scroll
-    window.addEventListener('scroll', () => {
-        const header = document.querySelector('.header');
-        if (window.scrollY > 50) {
-            header.style.background = 'rgba(51, 51, 51, 0.9)';
-            header.style.padding = '10px 20px';
-        } else {
-            header.style.background = '#333';
-            header.style.padding = '20px';
-        }
-    });
+
 
     // Smooth scroll to sections
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
