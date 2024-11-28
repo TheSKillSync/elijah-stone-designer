@@ -1,6 +1,6 @@
 <html>
   <head>
-   
+    <link rel="icon" href="esiconwhite.png" type="image/x-icon">
     <title>Pro Website Design - Elijah Stone Freelancer</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
     <script src="index.js" defer></script>
@@ -47,7 +47,8 @@ Get a Quote
     </div>
     <div class="page0">
     
-    <div class="page1">
+    <div class="page1" class="scroll-in">
+      <div id="all">
 <hr>
 
 
@@ -59,7 +60,7 @@ Get a Quote
 
 
 
-<div class="carousel-container">
+<div class="carousel-container" class="scroll-in">
   <div class="carousel">
     <img src="port31.png" alt="Image 1" class="carousel-image active">
     <img src="port32.png" alt="Image 2" class="carousel-image">
@@ -193,16 +194,113 @@ targetDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
 <div id="howitworks"></div>
 <h1 id="hiw">How it works</h1>
 
-<p id="hiwp">Reach out with your ideas for your website—what you want it to do and how you’d like it to look. We’ll give you a cost estimate and start building as soon as your payment (cash or venmo) is complete. You’ll get a timeline and regular updates as we work on your site.
-
-Once it’s finished, we’ll transfer it to your domain (or a GitHub domain if you don’t have one) and make any final tweaks you’d like. If you’re not satisfied with our work, you may recieve a 100% cash refund within 48 hours of launch, and we’ll take the site down.</p>
-
+<p id="hiwp">- Share your website ideas—features and design preferences. <br> 
+  - Receive a cost estimate and begin once payment (cash or Venmo) is complete. <br> 
+  - Get a timeline and regular progress updates during development.  <br>
+  - Upon completion, the site is transferred to your domain (or GitHub if needed). <br> 
+  - Final tweaks are made to meet your expectations.  <br>
+  - If unsatisfied, receive a 100% cash refund within 48 hours of launch, and the site will be taken down.  </p>
 </div>
 
 
 
 
-<hr>
+<hr id="wts">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="emailPopup" class="popup">
+  <div class="popup-content">
+    <button class="close-btn" onclick="closePopup()"></button>
+    <span class="close">&times;</span>
+    <h2>Get In touch!</h2>
+    <p>Share your email, and let’s build your dream website.</p>
+   
+      <a href="#contact-section"  onclick="closePopup()"><button id="submit" type="submit">Get Started</button></a>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+<div id="contact-form-container">
+  <h1>Reach Out</h1>
+  
+  <p>Fill out this form to take the first step in growing your business.<br>Response is typically within 48 hours.</p>
+  <img src="col.png" alt="collaborators">
+  <form id="contact-form" action="https://formspree.io/f/mkgnqeqr" method="POST">
+    <div id="input-container">
+    <label id="first-name" for="first-name">First Name</label>
+    <input type="text" id="first-name" name="first-name" required>
+
+    <label for="last-name">Last Name</label>
+    <input type="text" id="last-name" name="last-name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button id="submit-button" type="submit">Send</button>
+  </form>
+  </div>
+</div>
+
+
+
+
+
 
 
 
@@ -219,70 +317,7 @@ Once it’s finished, we’ll transfer it to your domain (or a GitHub domain if 
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
   <footer>
     <p>Elijah Stone 2024</p>

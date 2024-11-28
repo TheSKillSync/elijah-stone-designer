@@ -20,7 +20,30 @@
     button.addEventListener('mouseleave', () => {
         button.style.transform = 'scale(1)';
     });
-});
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -62,6 +85,34 @@ window.addEventListener('load', function() {
 
 
 
+window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const videoBg = document.getElementById('video-bg');
+  
+    // Move the video background at a slower speed
+    videoBg.style.transform = `translateY(${scrollTop * .9}px)`;
+  });
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const overlayContent = document.getElementById('overlay-content');
+  
+    // Move the overlay content at a slower speed
+    overlayContent.style.transform = `translate(-50%, calc(-50% + ${scrollTop * 0.3}px))`;
+  });
 
 
 
@@ -75,6 +126,19 @@ window.addEventListener('load', function() {
 
 
 
+// Add a scroll event listener to the window
+window.addEventListener('scroll', function() {
+    const allDiv = document.getElementById('all');  // Get the div with id 'all'
+  
+    // Check if the div is in the viewport
+    if (allDiv.getBoundingClientRect().top < window.innerHeight && !allDiv.classList.contains('visible')) {
+      allDiv.classList.add('visible');  // Add the 'visible' class when it's in the viewport
+    }
+  });
+  
+  // Trigger scroll event on page load to handle already visible content (optional)
+  window.dispatchEvent(new Event('scroll'));
+  
 
 
 
@@ -125,3 +189,194 @@ prevButton.addEventListener('click', prevImage);
 
 // Auto-play carousel every 3 seconds
 setInterval(nextImage, 3000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Show the popup after 5 seconds
+window.onload = () => {
+    setTimeout(() => {
+      document.getElementById("emailPopup").style.display = "block";
+    }, 5000);
+  };
+  
+  // Close the popup
+  document.querySelector(".close").addEventListener("click", () => {
+    document.getElementById("emailPopup").style.display = "none";
+  });
+  
+  // Form submission handler
+  document.getElementById("emailForm").addEventListener("submit", (e) => {
+    e.preventDefault(); // Prevent the default form submission
+  
+    const email = document.getElementById("emailInput").value;
+  
+    // For now, log the email. Later, integrate with your email service.
+    console.log("Email submitted:", email);
+  
+    // Close the popup after submission
+    document.getElementById("emailPopup").style.display = "none";
+  });
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Add a scroll-in effect to elements when they enter the viewport
+function animateOnScroll() {
+    const elements = document.querySelectorAll('.scroll-in'); // Select all elements with this class
+    elements.forEach(element => {
+      if (isElementInViewport(element)) {
+        element.classList.add('in-view');
+      }
+    });
+  }
+  
+  // Helper function to check if the element is in the viewport
+  function isElementInViewport(el) {
+    const rect = el.getBoundingClientRect();
+    return rect.top >= 0 && rect.left >= 0 && rect.bottom <= window.innerHeight && rect.right <= window.innerWidth;
+  }
+  
+  // Add a class for scroll-in animation
+  document.addEventListener('DOMContentLoaded', () => {
+    window.addEventListener('scroll', animateOnScroll); // Trigger on scroll
+  });
+  
