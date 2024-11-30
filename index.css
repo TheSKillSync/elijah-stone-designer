@@ -1389,7 +1389,7 @@ margin-bottom: 10%!important;
 #es{
 width:200%;
 margin-left: -50% !important;
-margin-top:-120%!important;
+margin-top:-128%!important;
 font-size:4rem;
 }
 
@@ -1750,7 +1750,7 @@ font-size: 6rem!important;
 #contact-form button{
 width: 40% !important;
 height: 7% !important;
-
+margin-top:-4%!important;
 
 
 }
