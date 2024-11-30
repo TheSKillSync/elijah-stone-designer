@@ -36,6 +36,7 @@ body.visible{
 width: 54% !important;;
 margin-left: 24% !important;
 
+margin-top: 50%!important;
 }
 
 
@@ -81,8 +82,8 @@ margin-left: 24% !important;
 @media screen and (max-width: 1000px) {
 #p0{
 
-margin-top: 5%;
-margin-bottom: -22%;
+margin-top: 0%;
+margin-bottom: -20%;
 }
 
 
@@ -331,7 +332,7 @@ height: 200%;
 #h11{
 
 margin-left: 5%!important;
-margin-top: -100%!important;
+margin-top: -95%!important;
 }
 
 
@@ -379,7 +380,8 @@ margin-top: -100%!important;
 @media screen and (max-width: 1000px){
 
 #h12{
-margin-bottom: 140%;
+margin-bottom: 20%;
+margin-top:5%!important;
 font-size:3rem!important;
 margin-left: -24% !important;
 width:150% !important;
@@ -429,7 +431,7 @@ width:150% !important;
 @media screen and (max-width:1000px){
 #emailbut{
   font-size: 3rem!important;
-margin-top:-130%!important;
+margin-top:-90%!important;
 margin-left:3%!important;
 width: 70% !important;;
 
@@ -855,7 +857,20 @@ margin-left: 10%!important;
 
 
 
+@media screen and (max-width:1000px){
 
+
+#header{
+
+width:10% !important;
+height: 15% !important;;
+
+}
+
+
+
+
+}
 
 
 
@@ -1372,7 +1387,7 @@ font-size:2rem;
 #es{
 
 margin-left: 5% !important;
-margin-top:-123%!important;
+margin-top:-120%!important;
 }
 
 
@@ -1439,8 +1454,8 @@ Margin-top:-24%;
   @media screen and (max-width:1000px){
 .carousel-container{
 width: 50% !important;
-margin-bottom: 22% !important;;
-margin-top: -125% !important;
+margin-bottom: 25% !important;;
+margin-top: -78% !important;
 
 
 
@@ -1617,6 +1632,54 @@ height:135%!important;
 
 
 
+@media screen and (max-width:1000px){
+
+.popup-content{
+
+width:60% !important;
+font-size: 2.5rem;
+
+}
+
+
+
+}@media screen and (max-width:1000px){
+
+
+#tweakin{
+
+
+font-size: 2.2rem;
+
+}
+
+
+
+}
+
+
+
+
+@media screen and (max-width:1000px){
+
+.close-btn{
+
+
+font-size: 6rem!important;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -1656,7 +1719,7 @@ height:135%!important;
     position: absolute;
     top: 10px;
     right: 15px;
-    font-size: 20px;
+    font-size: 60px;
     cursor:crosshair;
     margin-left:5%;
     border:1px solid black;
@@ -1686,6 +1749,26 @@ margin-top:15%;
 
   }
   
+@media screen and (max-width:1000px){
+
+#submit{
+margin-top:4%!important;
+font-size:2.5rem;
+border-radius: 10px;
+background-color: blue;
+color: white;
+padding:5px;
+}
+
+
+
+}
+
+
+
+
+
+
   #submit:hover{
 color:white;
 background-color:blue;
@@ -1972,8 +2055,8 @@ margin-bottom: -70%;
 
 #p0{
 
-margin-bottom: -200%!important;
-margin-top:50%;
+margin-bottom: -0%!important;
+margin-top:-20%!important;
 
 
 }

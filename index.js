@@ -54,15 +54,7 @@
 
 
 
-// Header Shrink Effect on Scroll
-window.addEventListener('scroll', function() {
-    const header = document.querySelector('header');
-    if (window.scrollY > 50) {  // When scroll position is more than 50px
-        header.classList.add('shrink');
-    } else {
-        header.classList.remove('shrink');
-    }
-});
+
 
 // Fade-in Effect on Scroll for Cards
 window.addEventListener('scroll', function() {
