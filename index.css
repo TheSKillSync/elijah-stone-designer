@@ -247,7 +247,7 @@ margin-bottom: -20%;
 
 .header{
 
-height:3% !important;
+height:5% !important;
 
 }
 }
@@ -1096,11 +1096,13 @@ margin-left:20%!important;
        @media screen and (max-width:1000px){
 
 #pricing{
-margin-top:-9%
+margin-top:-15% !important
 ;
+
 margin-right:-20%!important;
 padding:1%;
 font-size:2rem;
+margin-bottom: 10%!important;
 }
 
 
@@ -1550,7 +1552,7 @@ margin-top: -65% !important;
 
 #logo{
 margin-right:-9%;
-height:135%!important;
+height:100%!important;
 
 
 }
