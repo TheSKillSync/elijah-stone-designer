@@ -33,8 +33,8 @@ body.visible{
 @media screen and (max-width: 1000px){
 #h21{
 
-width: 54% !important;;
-margin-left: 24% !important;
+width: 59% !important;;
+margin-left: 21% !important;
 
 margin-top: 50%!important;
 }
@@ -330,8 +330,8 @@ height: 200%;
 @media screen and (max-width:1000px) {
 
 #h11{
-
-margin-left: 5%!important;
+width:150% !important;
+margin-left: -25%!important;
 margin-top: -95%!important;
 }
 
@@ -431,9 +431,9 @@ width:150% !important;
 @media screen and (max-width:1000px){
 #emailbut{
   font-size: 3rem!important;
-margin-top:-90%!important;
+margin-top:-100%!important;
 margin-left:3%!important;
-width: 70% !important;;
+width: 80% !important;;
 
 
 
@@ -1387,9 +1387,10 @@ margin-bottom: 10%!important;
    @media screen and (max-width:1000px){
 
 #es{
-
-margin-left: 5% !important;
+width:200%;
+margin-left: -50% !important;
 margin-top:-120%!important;
+font-size:4rem;
 }
 
 
@@ -1741,6 +1742,30 @@ font-size: 6rem!important;
     border: 1px solid aliceblue;
     border-radius: 5px;
   }
+
+
+
+@media screen and (max-width:1000px){
+
+#contact-form button{
+width: 40% !important;
+height: 7% !important;
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
   #submit{
 border-radius: 5px;
 font-size: large;
