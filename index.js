@@ -85,13 +85,6 @@ window.addEventListener('load', function() {
 
 
 
-window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY;
-    const videoBg = document.getElementById('video-bg');
-  
-    // Move the video background at a slower speed
-    videoBg.style.transform = `translateY(${scrollTop * .9}px)`;
-  });
 
   
 
@@ -106,15 +99,7 @@ window.addEventListener('scroll', () => {
 
 
 
-  window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY;
-    const overlayContent = document.getElementById('overlay-content');
   
-    // Move the overlay content at a slower speed
-    overlayContent.style.transform = `translate(-50%, calc(-50% + ${scrollTop * 0.3}px))`;
-  });
-
-
 
 
 

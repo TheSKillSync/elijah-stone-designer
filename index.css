@@ -6,7 +6,7 @@ body {
     color: black;
     padding: 0;
     margin: 0;
-    overflow: visible;
+    overflow-x:hidden!important;
                           /* Hidden initially */
       
   }
@@ -30,16 +30,39 @@ body.visible{
     transition: color 0.3s, background-color 0.3s;
   }
   
+@media screen and (max-width: 1000px){
+#h21{
+
+width: 54% !important;;
+margin-left: 24% !important;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
   #h21 {
     color: black;
     padding: 0.3rem; /* Convsserted from 5px */
     border-width: 0.125rem; /* Converted from 2px */
-    width: 700px;
-    margin-left:52.5%;
+    width: 30%;
+    margin-left:35%;
     font-size: 3rem; /* Converted from 300% */
     text-align: center;
     font-family: monospace;
-    
+    margin-top: -10% !important;;
     transition: color 0.3s, transform 0.3s;
   }
   
@@ -48,36 +71,47 @@ body.visible{
     transform: scale(1.05);
   }
   
-  #h22 {
-    margin-top: 17vh; /* Converted from 17% */
-    margin-left: 35%;
-    font-family: monospace;
-    font-size: 6rem; /* Converted from 600% */
-    border: 0.1875rem solid blue; /* Converted from 3px */
-    border-top-color: white;
-    border-bottom-color: white;
-    border-radius: 0.75rem; /* Converted from 12px */
-    width: 30%;
-    transition: border-color 0.3s, transform 0.3s;
-  }
+  
   
   #h22:hover {
     border-color: darkblue;
     transform: scale(1.05);
   }
   
+@media screen and (max-width: 1000px) {
+#p0{
+
+margin-top: 5%;
+margin-bottom: -22%;
+}
+
+
+
+}
+
+
+
+
+
+
+
   #p0 {
     color: grey;
+    width:50%;
     font-family: monospace;
     line-height: 2.5;
     font-size: 1.5rem; /* Converted from 150% */
-    padding-left: 55%;
+    padding-left:0px!important;
     border: 0.125rem solid blue; /* Converted from 2px */
-    border-left-color: white;
+    border-left-color: blue!important;
     border-top-color: darkblue;
     border-bottom-color: darkblue;
     transition: color 0.3s, border-color 0.3s;
-    margin-left: 3%;;
+    margin-left: 25%;
+    margin-right: 10%;
+    
+
+
   }
   
   #p0:hover {
@@ -149,12 +183,7 @@ body.visible{
     color: blue;
   }
   
-  #pricing {
-    padding: 0.25rem; /* Converted from 4px */
-    padding-left: 0.9375rem; /* Converted from 15px */
-    padding-right: 0.9375rem; /* Converted from 15px */
-    margin-bottom: 1.25rem; /* Converted from 20px */
-  }
+  
   
   #contact {
     
@@ -211,14 +240,56 @@ body.visible{
     color: blue;
   }
   
+
+
+@media screen and (max-width:1000px){
+
+.header{
+
+height:3% !important;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   .header {
-    height: 70px;
+    height: 10%;
     top: -1;
     background-color: white !important;
     z-index: 1000;
     position: sticky;
   }
   
+@media screen and (max-width:1000px){
+
+#video-bg{
+
+width:280%;
+height: 200%;
+
+}
+
+
+
+}
+
+
+
+
+
+
   #video-bg {
     margin-bottom: 0px;
     padding-bottom: 200px;
@@ -253,6 +324,39 @@ body.visible{
   .page1 {
   }
   
+
+
+@media screen and (max-width:1000px) {
+
+#h11{
+
+margin-left: 5%!important;
+margin-top: -100%!important;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   #h11 {
     font-size: 500%;
     color: white;
@@ -271,6 +375,29 @@ body.visible{
     border-color: lightblue;
   }
   
+
+@media screen and (max-width: 1000px){
+
+#h12{
+margin-bottom: 140%;
+font-size:3rem!important;
+margin-left: -24% !important;
+width:150% !important;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
   #h12 {
     font-size: 240%;
     color: white;
@@ -296,6 +423,32 @@ body.visible{
     color: darkblue;
   }
   
+
+
+
+@media screen and (max-width:1000px){
+#emailbut{
+  font-size: 3rem!important;
+margin-top:-130%!important;
+margin-left:3%!important;
+width: 70% !important;;
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
   #emailbut {
     width: fit-content;
     height: fit-content;
@@ -381,12 +534,43 @@ body.visible{
     background-color: aliceblue;
     color: #333;
   }
-  
+ 
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 1000px) {
+    #priceh1 {
+       
+        
+        margin-right: 21rem !important;; /* Set margin-right to 5% */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   #priceh1 {
     font-size: 2.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0%;
     background-color: transparent;
-  
+  margin-right:5.5%;
     margin-top: 2%;
   }
   
@@ -395,6 +579,16 @@ body.visible{
     margin-top: 0;
   }
   
+
+@media screen and (max-width: 1000px){
+
+  .pricing-plans{
+margin-left:0;
+
+  }
+}
+
+
   .pricing-plans {
     display: flex;
     justify-content: space-around;
@@ -402,8 +596,15 @@ body.visible{
     gap: 2rem;
     padding: 2rem;
     margin-top: -28%;
+    
   }
-  
+  @media screen and (max-width: 1000px){
+    .plan{
+width: 70% !important;
+
+
+    }
+  }
   .plan {
     background: linear-gradient(145deg, #e0e7ff, #f0f8ff);
     border-radius: 15px;
@@ -478,9 +679,9 @@ body.visible{
     padding: 2rem 1rem;
     margin-top: 2rem;
     background-color: #e0e7ff;
-    border-radius: 15px;
-    width: 90%;
-    max-width: 800px;
+    border-radius: .5rem;
+    width: 80%;
+    
     align-items: center;
     margin-left: 26%;
   }
@@ -590,11 +791,13 @@ body.visible{
     overflow: hidden;
     z-index: 1000;
     opacity: 0.4;
+    visibility:hidden;
   }
   
   .banner-container {
     display: flex;
     width: 200%;
+    overflow: hidden;
     animation: marquee 20s linear infinite;
   }
   
@@ -606,12 +809,15 @@ body.visible{
     font-size: 1.2rem;
     white-space: nowrap;
     opacity: 0;
+   overflow: hidden;
+   width: 100%;
     animation: fadeInOut 20s linear infinite;
   }
   
   @keyframes marquee {
     0% {
       transform: translateX(0);
+      overflow:hidden;
     }
     100% {
       transform: translateX(-50%);
@@ -621,7 +827,7 @@ body.visible{
   @keyframes fadeInOut {
     0%,
     100% {
-      opacity: 0;
+      opacity: 1;
     }
     10%,
     90% {
@@ -637,6 +843,24 @@ body.visible{
     margin-right: 9%;
   }
   
+
+
+
+  @media screen and (max-width: 1000px) {
+    #Support {
+margin-left: 10%!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
   #header {
     margin: 0px;
   }
@@ -660,16 +884,16 @@ body.visible{
   }
   
   #mango {
-    margin-top: 10%;
+    margin-top: 30%;
   }
   
   #priceh1 {
-    margin-left: 35%;
+    margin-left: 33.5%;
     background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:monospace;
     font-weight: 600;
-    border: 3px solid black;
-  
+    border: 3px solid white;
+  border-radius: 2rem;
     padding: 10px;
     font-size: 60px;
   }
@@ -726,7 +950,7 @@ body.visible{
   
   #h22 {
     margin-top: 17%;
-    margin-left: 35%;
+    margin-right: 50%;
     font-family: monospace;
     font-size: 600%;
     border: 3px solid blue;
@@ -817,7 +1041,7 @@ body.visible{
     font-weight: 200;
     transition: color 0.3s;
     border:2px solid black;
-    border-radius:8px;
+    border-radius:19%;
     padding: 5px;
     background-color: aliceblue;
   }
@@ -826,19 +1050,59 @@ body.visible{
   .Contact:hover {
     color: blue;
   }
-  
+
+
+
+@media screen and (max-width:1000px){
+
+#contact{
+width:auto;
+font-size:2rem;
+margin-left:20%!important;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       @media screen and (max-width:1000px){
+
+#pricing{
+margin-top:-6.8%
+;
+margin-right:-20%!important;
+padding:1%;
+font-size:2rem;
+}
+
+
+
+       }      
   #pricing {
-    padding: 4 4;
     
-    margin-bottom: 20px;
+    
+    margin-bottom: 2%;
     
   }
   
   #contact {
     
     
-    margin-left: 895px;
-    margin-bottom: 20px;
+    margin-left: 80%;
+    margin-bottom: 2%;
   }
   
   a {
@@ -896,7 +1160,7 @@ body.visible{
   
   #video-bg {
     margin-bottom: 0px;
-    padding-bottom: 200px;
+    padding-bottom: 20%;
     clip-path: polygon(0 0, 100% 0, 100% 72%, 0 72%);
     z-index: -2000;
   }
@@ -1006,15 +1270,34 @@ body.visible{
   }
   
   #hiw {
-    margin-left: 43.5%;
-  
+    
+  margin-left: 42.5%;
     background-color: aliceblue;
-    border: 4px solid aliceblue;
+    border: .25rem solid aliceblue;
     border-bottom-color: blue;
-    border-radius: 10px;
+    border-radius: 5%;
     transition: background-color 0.3s, transform 0.3s;
   }
   
+
+
+  @media screen and (max-width: 1000px) {
+    #hiw {
+        margin-left: 34%;
+        width:
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
   #hiw:hover {
     background-color: white;
     transform: scale(1.05);
@@ -1022,29 +1305,30 @@ body.visible{
   
   #hiwp {
     color: black;
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-family: monospace;
     transition: color 0.3s;
-    margin-top: 6%;
+    margin-top: 9%;
     margin-bottom: 5%;
     text-align: center;
     line-height: 2;
-    border: 3px solid blue;
+    border: .025rem solid blue;
+
   
-    margin-left: 25%;
-    margin-right: 23%;
-    border-radius: 8px;
-    padding: 20px;
+   margin-left:23.5%;
+    border-radius: .8%;
+    padding: 2%;
+    width:50%;
   }
   
   .footer-button {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
+    margin-top: 1%;
+    padding: 1% 2%;
     background-color: #fff; /* White background */
     color: #000; /* Black text */
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: .5rem;
     transition: background-color 0.3s, color 0.3s;
   }
   
@@ -1065,16 +1349,36 @@ body.visible{
   
   #cont {
     font-family: Arial, Helvetica, sans-serif;
-    width: fit-content;
-    margin-left: 34%;
+    width:30%;
+    margin-left: 34.5%;
     margin-top: 6.5%;
     border: 3px solid aliceblue;
     border-radius: 8px;
     border-left-color: blue;
-    padding-left: 10%;
+    padding-left: 0%;
   }
   
-  
+  @media screen and (max-width: 1000px) {
+    #cont{
+      margin-left: 5%;
+      width:auto;
+    }
+
+
+    }
+    
+   @media screen and (max-width:1000px){
+
+#es{
+
+margin-left: 5% !important;
+margin-top:-123%!important;
+}
+
+
+
+   }
+    
    
   
   #es {
@@ -1084,10 +1388,15 @@ body.visible{
     margin-top: -40%;
   }
   
-  header.shrink {
-    height: 50px;
-    padding: 10px 15px;
-  }
+ @media screen and (max-width:1000px){
+#port1, #port2{
+
+Margin-top:-24%;
+
+}
+
+
+ }
   
   #port1 {
     width: 28%;
@@ -1127,20 +1436,33 @@ body.visible{
   
   
   
-  
+  @media screen and (max-width:1000px){
+.carousel-container{
+width: 50% !important;
+margin-bottom: 22% !important;;
+margin-top: -125% !important;
+
+
+
+}
+
+
+
+
+  }
   
   
   
   .carousel-container {
-    width: 700%;
-    max-width: 750px;
+    width: 50%;
+    
     position: relative;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: -30%;
-    margin-left: 2%;
-    margin-top: 9%;
+    margin-bottom: -56%;
+    margin-left: 25%;
+    margin-top: 31%;
   }
   
   .carousel {
@@ -1184,17 +1506,22 @@ body.visible{
   
   
   
-  
+  @media screen and (max-width: 1000px) {
+    #skibidi {
+        width: 29% !important;
+      margin-left:35% !important;
+    }
+}
   
   #skibidi{
   
   margin-bottom: 4%;;
   font-family: monospace;
-  font-size:40px;
-  border:2px solid white;
+  font-size:3rem;
+  border:.5rem solid white;
   width:fit-content;
-  margin-left:40%;
-  padding:15px;
+  margin-left:43rem;
+  padding:1%;
   }
   
   
@@ -1204,6 +1531,21 @@ body.visible{
   
   
   
+  @media screen and (max-width:1000px){
+
+#logo{
+margin-right:-9%;
+height:135%!important;
+
+
+}
+
+
+
+  }
+
+
+
   
   
   
@@ -1301,8 +1643,8 @@ body.visible{
     font-family: monospace;
     padding: 20px;
     border-radius: 10px;
-    width: 90%;
-    max-width: 400px;
+    width: 25%;
+    height:25%;
     margin: 10% auto;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -1336,10 +1678,11 @@ body.visible{
   }
   #submit{
 border-radius: 5px;
+font-size: large;
 border:1px solid grey;
 background-color: aliceblue;
 font-family: monospace;
-
+margin-top:15%;
 
   }
   
@@ -1573,8 +1916,8 @@ margin-bottom: -70%;
 
 
     #all {
-        opacity: 0;                         /* Hidden initially */
-        transform: translateY(50px);         /* Start 50px below the final position */
+        opacity: 1;                         /* Hidden initially */
+        transform: translateY(5%);         /* Start 50px below the final position */
         transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Smooth transition */
       }
       
@@ -1600,7 +1943,7 @@ margin-bottom: -70%;
       /* Initial state for scroll-in animation */
 .scroll-in {
     opacity: 1;
-    transform: translateY(30px);
+    transform: translateY(3%);
     transition: all 0.5s ease-out;
   }
   
@@ -1610,3 +1953,36 @@ margin-bottom: -70%;
     transform: translateY(0);
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:700px) {
+
+#p0{
+
+margin-bottom: -200%!important;
+margin-top:50%;
+
+
+}
+
+
+
+
+
+  }
+
+
+
